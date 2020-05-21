@@ -1,6 +1,4 @@
 package lesson3;
-
-import java.util.Objects;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -15,7 +13,6 @@ public class HomeWork3 {
         do {
             for (int i = 0; i < 3; i++) {
                 System.out.println("Угадайте случайное число от 0 до 9!");
-//                System.out.println(y);
                 int x = sc.nextInt();
                 if (x == y) {
                     System.out.println("Вы угадали!");
