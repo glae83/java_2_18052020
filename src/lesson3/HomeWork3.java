@@ -44,7 +44,7 @@ public class HomeWork3 {
     }
     //Задание 2
     private static void guessWord() {
-        String[] fruits = {"apple", "orange", "lemon", "banana", "apricot", "avocado", "broccoli", "carrot", "cherry",
+        String[] fruits = {"apple", "orange", " lemon", "banana", "apricot", "avocado", "broccoli", "carrot", "cherry",
                 "garlic", "grape", "melon", "leak", "kiwi", "mango", "mushroom", "nut", "olive", "pea", "peanut",
                 "pear", "pepper", "pineapple", "pumpkin", "potato"};
         int words = random.nextInt(fruits.length - 1);
