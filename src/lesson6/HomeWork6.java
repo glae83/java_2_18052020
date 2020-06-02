@@ -35,19 +35,19 @@ public class HomeWork6
 
         public void run(int length) {
             if (this.maxLenght >= length){
-                System.out.println(this.name + " пробежал " + length + " м." + this.maxLenght);
+                System.out.println(this.name + " пробежал " + length + " м." );
             }
             else {
-                System.out.println(this.name + " не может бежать так далеко" + this.maxLenght);
+                System.out.println(this.name + " не может бежать так далеко" );
             }
         }
 
         public void swim(int length) {
             if (this.maxSwim >= length) {
-                System.out.println(this.name + " проплыл " + length + " м." +this.maxSwim);
+                System.out.println(this.name + " проплыл " + length + " м." );
             }
             else {
-                System.out.println(this.name + " не может плыть так далеко" +this.maxSwim);
+                System.out.println(this.name + " не может плыть так далеко" );
             }
         }
     }
