@@ -21,8 +21,8 @@ public class HomeWork7 {
         for (Cat cat : arrCats) {
             cat.eat(plate);
             cat.info();
+            plate.info();
         }
-        plate.info();
         plate.addFood(100);
         plate.info();
     }
